@@ -1,0 +1,177 @@
+body {
+margin: 0px;
+font-family: 'Questrial', sans-serif;
+max-width: 1600px;
+margin: auto;
+margin-bottom: 100px;
+    
+}
+
+.home {
+margin-top: 50px;
+}
+
+.home, .home2, .home3 {
+    
+display: flex;   
+justify-content: center;
+width: 100%;
+max-height: 500px;
+  
+}
+
+
+.man, .kids {
+    
+justify-content: center;
+align-items: center;
+margin-left: 40px;
+overflow: hidden;
+flex: 1;
+   
+}
+
+.man img { 
+    
+width: 100%;
+    
+}
+
+.kids img {
+   
+width: 100%
+    
+}
+
+.woman img {
+width: 100%;    
+}
+
+.woman {
+    
+margin-right: 20px;
+justify-content: center;
+overflow: hidden;
+flex: 1;
+
+}
+
+.mantext {
+    
+font-size: 35px;
+color: white;
+background-color: #2EC4B6;
+padding: 150px 0px 50px 50px;
+margin-right: 40px;
+flex: 1;
+}
+
+
+.womantext {
+    margin-left: 40px;
+    font-size: 35px;
+    color: #2EC4B6;
+    padding: 150px 0px 0px 25px;
+    flex: 1;
+   
+}
+
+.kidstext {
+    
+font-size: 35px;
+color: white;
+background-color: #2EC4B6;
+padding: 125px 15px 0px 15px;
+margin-right: 40px;
+flex: 1;
+  
+}
+
+
+.footer {
+    
+background-color: #e71d36;
+position: fixed;
+left: 0;
+right:0;    
+bottom: 0;
+justify-content: space-around;    
+  
+    
+}
+
+.footer ul {
+    
+display: flex;
+justify-content: center;
+list-style-type: none;
+    
+    
+}
+.footer li {
+    
+padding: 10px;
+font-size: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    color: #2EC4B6; 
+}
+
+.nav h1 {
+    
+border-bottom: 1px solid black;
+text-align: center;
+font-family: 'Questrial', sans-serif;
+}
+
+.nav ul {
+   
+display: flex;
+justify-content: center;
+list-style-type: none;
+padding: 0px;
+}
+
+
+.nav {
+border-bottom: 1px solid black;
+background-color: white;
+margin-left: 40px;
+margin-right: 40px;
+}
+.nav li {
+    
+padding: 10px;
+    
+}
+
+.nav a {
+    
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+.nav a:hover{
+    font-size: 22px;
+     color:#e71d36;
+}
+
+.title {
+  
+text-align: center;
+font-size: 6vw;
+color: #424C55;
+margin: 0px;
+}
+
+span {
+color: #2EC4B6;
+}
+
